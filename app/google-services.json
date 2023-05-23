@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504320844338",
+    "project_id": "new-instagram-clone-f4119",
+    "storage_bucket": "new-instagram-clone-f4119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504320844338:android:ea08480955d98fe883522b",
+        "android_client_info": {
+          "package_name": "com.sudhirtheindian4.newinstagramclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504320844338-4a5embferecmr65nrfe64kv6tve67n4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0rwaz7fxqe3lJZ3Sz6g_vacANMhn0WvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504320844338-4a5embferecmr65nrfe64kv6tve67n4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

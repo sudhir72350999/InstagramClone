@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".profile.ProfileActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/container"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+
+<!--        <include layout="@layout/layout_center_profile"/>-->
+<!--        <include layout="@layout/layout_bottom_navigation_view"/>-->
+<!--        <ProgressBar-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:id="@+id/profileProgressbar"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"/>-->
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,77 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:theme="@style/Theme.NewInstagramClone"
+        android:background="@drawable/white_gray_border_bottom"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/profileToolbar"
+            app:popupTheme="@style/Theme.NewInstagramClone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/BackArrow"
+                    android:src="@drawable/back_arrow"/>
+
+
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_toRightOf="@id/BackArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sudhir.Indian"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+
+
+            </RelativeLayout>
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/ivBackArrow"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:src="@drawable/back_arrow" />-->
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/username"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginStart="15sp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:text="Sudhir Prajapati"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="20sp" />-->
+
+
+<!--            </RelativeLayout>-->
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</merge>

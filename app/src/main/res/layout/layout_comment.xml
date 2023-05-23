@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/comments_profile_image"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/boy"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="0.5dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_toRightOf="@id/comments_profile_image"
+        android:background="@drawable/grey_border_bottom"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="sudhir.indian"
+                android:id="@+id/comment_username"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/comment"
+                android:text="this is comment"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/comment_username"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/comment_time_posted"
+                android:text="3 d"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_below="@id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/comment_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/comment"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/comment_time_posted"
+                android:text="20 likes"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/comment_reply"
+                android:text="Reply"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/comment_like"
+                android:layout_below="@id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/comment_heart_like"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_heart_white" />
+
+    </RelativeLayout>
+</RelativeLayout>
